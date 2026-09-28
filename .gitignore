@@ -53,6 +53,9 @@ datasets/
 runs/detect/*/weights/
 runs/detect/*/events.*
 
+# Training output directory (too large for GitHub)
+runs/
+
 # Training batch images
 runs/detect/*/train_batch*.jpg
 runs/detect/*/val_batch*.jpg
