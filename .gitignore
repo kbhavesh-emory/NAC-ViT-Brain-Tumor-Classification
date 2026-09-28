@@ -1,0 +1,56 @@
+# Paper documents (for journal submission only)
+*.docx
+*.doc
+
+# AI-generated paper scripts
+generate_final_paper.py
+generate_response_letter.py
+
+# Large model weights
+*.pt
+*.pth
+*.onnx
+weights/
+
+# Training logs
+training.log
+*.log
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (too large for GitHub - users can download separately)
+datasets/
+
+# Large training outputs (keep only essential plots)
+runs/detect/*/weights/
+runs/detect/*/events.*
+
+# Training batch images
+runs/detect/*/train_batch*.jpg
+runs/detect/*/val_batch*.jpg
+runs/detect/*/labels.jpg
