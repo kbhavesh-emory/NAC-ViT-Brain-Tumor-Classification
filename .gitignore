@@ -1,20 +1,20 @@
 # Paper documents (for journal submission only)
 *.docx
 *.doc
-
+.venv
 # AI-generated paper scripts
-generate_final_paper.py
+generate_final_paper.pyICISHCT_T2_PM_009_CameraReady.docx
 generate_response_letter.py
-
+ICISHCT_2026_Conference_Presentation_Template.pptx
 # Paper directory (all research paper files)
 paper/
-
 # Large model weights
 *.pt
 *.pth
 *.onnx
 weights/
-
+__pycache__
+_build_view_nb.py
 # Training logs
 training.log
 *.log
@@ -42,21 +42,10 @@ __pycache__/
 *.swo
 *~
 
+# Environment variables (keep local config private)
+.env
+.env
 # OS
 .DS_Store
 Thumbs.db
-
-# Dataset (too large for GitHub - users can download separately)
-datasets/
-
-# Large training outputs (keep only essential plots)
-runs/detect/*/weights/
-runs/detect/*/events.*
-
-# Training output directory (too large for GitHub)
-runs/
-
-# Training batch images
-runs/detect/*/train_batch*.jpg
-runs/detect/*/val_batch*.jpg
-runs/detect/*/labels.jpg
+.env.example
